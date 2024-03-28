@@ -1,0 +1,52 @@
+.cardWidth {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 10rem;
+    height: 15rem;
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 15px;
+    border: 7px solid var(--dBlue);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    padding: 0px 26px 2rem 26px;
+    position: relative;
+    text-align: center;
+    gap: 1rem;
+   
+  }
+  
+  .cardWidth span:nth-of-type(2) {
+    color: var(--gray);
+    font-size: 14px;
+  }
+  .cardWidth > div {
+    transform: scale(.6);
+    margin-bottom: -2rem;
+   
+  }
+  
+  .cardWidth div img {
+    width: 100%;
+    border-radius: 15px;
+    border: 7px solid var(--dBlue);
+  }
+  
+  
+  .c-button {
+    background: #FFFFFF;
+    box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #5290FD;
+  }
+  
+  .c-button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  /* cards */
+  
